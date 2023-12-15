@@ -5,7 +5,8 @@
 /**
 *main - entry point
 *
-*Description: print all single digit numbers
+*Description: print 0-9 using putchar
+*             while using int variable
 *
 * Return: 0 (success)
 */
@@ -20,7 +21,7 @@ int main(void)
 		putchar(digit + '0');
 		digit++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }

@@ -16,7 +16,8 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		printf("%i", digit);
+		/*convert digit to ASCII*/
+		putchar(digit + '0');
 		digit++;
 	}
 	printf("\n");
